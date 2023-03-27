@@ -21,6 +21,13 @@
     		
     	} else {
     		// 로그인 실패 - > loginFrom.jsp로 이동
-    		response.sendRedirect("04_loginForm.jsp");
+    		%>
+    		<script type ="text/javascript">
+    		alert("로그인 실패 했습니다.");
+    		history.go(-1);		
+    		</script>
+    		
+    		<%
+    		//response.sendRedirect("04_loginForm.jsp");
     	}
     %>
