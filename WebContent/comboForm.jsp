@@ -8,8 +8,23 @@
 </head>
 <body>
 	<form name="frm" action="comboForm.jsp">
-		<h1>검색 엔진 검색을 선택하세요.</h1>
-		<h2>검색 엔진 검색을 선택하세요.</h2>
+		<h1>검색 엔진 정보 페이지</h1>
+		<h2>검색 엔진을 선택하세요.</h2>
+			
+			<table>
+				<tr>
+					<td>
+						<select name="search_engine">
+							<option value="https://www.naver.com/">네이버</option>
+							<option value="https://www.google.co.kr/?hl=ko">구글</option>
+							<option value="https://www.daum.net/">다음</option>
+							<option value="https://www.nate.com/">네이트</option>
+						</select>
+					</td>
+					
+					<td><input type="submit" value="검색창 열기"></td>
+				</tr>	
+			</table>
 	</form>
 </body>
 </html>
