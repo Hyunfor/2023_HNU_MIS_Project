@@ -7,6 +7,9 @@
 <title>검색 엔진 검색 페이지</title>
 </head>
 <body>
-	<h1>검색 엔진 검색을 선택하세요.</h1>
+	<form name="frm" action="comboForm.jsp">
+		<h1>검색 엔진 검색을 선택하세요.</h1>
+		<h2>검색 엔진 검색을 선택하세요.</h2>
+	</form>
 </body>
 </html>
