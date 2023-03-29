@@ -15,16 +15,18 @@
 				<tr>
 					<td>
 						<select name="search_engine">
-							<option value="https://www.naver.com/">네이버</option>
-							<option value="https://www.google.co.kr/?hl=ko">구글</option>
-							<option value="https://www.daum.net/">다음</option>
-							<option value="https://www.nate.com/">네이트</option>
+							<option value="https://www.naver.com">네이버</option>
+							<option value="https://www.google.co.kr">구글</option>
+							<option value="https://www.daum.net">다음</option>
+							<option value="https://www.nate.com">네이트</option>
 						</select>
 					</td>
 					
 					<td><input type="submit" value="검색창 열기"></td>
-				</tr>	
+				</tr>
+					
 			</table>
 	</form>
+	
 </body>
 </html>

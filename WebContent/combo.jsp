@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>검색 엔진 이동</title>
 </head>
 <body>
-
+	<% 
+		response.sendRedirect(request.getParameter("search_engine")); 
+	%>
 </body>
 </html>
