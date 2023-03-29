@@ -9,8 +9,7 @@
 <body>
 	<form name="frm" action="combo.jsp">
 		<h1>검색 엔진 정보 페이지</h1>
-		<h2>검색 엔진을 선택하세요.</h2>
-			
+		<h2>검색 엔진을 선택하세요.</h2>	
 			<table>
 				<tr>
 					<td>
@@ -20,11 +19,9 @@
 							<option value="3">구글</option>
 							<option value="4">네이트</option>
 						</select>
-					</td>
-					
+					</td>		
 					<td><input type="submit" value="검색창 열기"></td>
-				</tr>
-					
+				</tr>		
 			</table>
 	</form>
 	
