@@ -8,7 +8,18 @@
 </head>
 <body>
 	<% 
-		response.sendRedirect(request.getParameter("search_engine")); 
+	String search_engine = request.getParameter("search_engine");
+
+	switch(Integer.parseInt(search_engine)){
+	case 1: response.sendRedirect("https://www.naver.com");
+		break;
+	case 2: response.sendRedirect("https://www.daum.net");
+		break;
+	case 3: response.sendRedirect("https://www.google.com");
+		break;
+	case 4: response.sendRedirect("https://www.nate.com");
+		break;
+	} 
 	%>
 </body>
 </html>
